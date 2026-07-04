@@ -1,11 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TEST</title>
+
+    <title>Juan Diego Castillo | WDD231</title>
+
+    <meta name="description" content="Course Home Page for WDD231">
+    <meta name="author" content="Juan Diego Castillo">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+
 </head>
+
 <body>
-    
+
+    <header>
+
+        <div class="logo">
+            <img src="images/logo.svg" alt="Site Logo">
+            <span>Juan Diego Castillo</span>
+        </div>
+
+        <button id="menu"></button>
+
+        <nav>
+
+            <ul class="navigation">
+
+                <li><a href="#" class="active">Home</a></li>
+
+                <li><a href="#">Chamber</a></li>
+
+                <li><a href="#">Final</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <h1>Home</h1>
+
+        <div class="top-grid">
+
+            <section>
+
+                <h2>About Me</h2>
+
+                <p>
+                    I am an IT professional with a background in computer science and information technology. I am
+                    focused on contributing and developing my talents. I am constantly dedicated to researching and
+                    acquiring knowledge and skills—including through self-study—in order to stay up to date with the
+                    latest technologies. I am committed to giving my best to every project, and I am persistent,
+                    organized, punctual, adaptable to change, and enthusiastic about working as part of a team.
+                </p>
+
+            </section>
+
+            <section>
+
+                <h2>Student Photo</h2>
+
+                <img src="images/foto.jpg" alt="Juan Diego">
+
+            </section>
+
+        </div>
+
+        <section>
+
+            <h2>Web Certificate Courses</h2>
+
+            <div class="buttons">
+
+                <button id="all">All</button>
+                <button id="cse">CSE</button>
+                <button id="wdd">WDD</button>
+
+            </div>
+
+            <div id="courses"></div>
+
+            <p id="credits"></p>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="social">
+            <a href="https://github.com/JD2099" target="_blank" aria-label="GitHub">
+                <img src="images/github.svg" alt="GitHub">
+            </a>
+
+            <a href="https://www.linkedin.com/in/juan-diego-castillo-ch%C3%A1vez-523257267/" target="_blank" aria-label="LinkedIn">
+                <img src="images/linkedin.svg" alt="LinkedIn">
+            </a>
+
+            <a href="https://www.instagram.com/jd_castilloch/" target="_blank" aria-label="Instagram">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+        </div>
+
+        <p>
+
+            © <span id="year"></span>
+
+            • Juan Diego Castillo • Lima, Peru
+
+        </p>
+
+        <p id="lastModified"></p>
+
+    </footer>
+
 </body>
+
 </html>
