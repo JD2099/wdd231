@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Chamber of Commerce | Directory</title>
+
+    <meta name="description" content="Directory of businesses that belong to the Chamber of Commerce.">
+    <meta name="author" content="Juan Diego Castillo">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Chamber of Commerce Directory">
+    <meta property="og:description" content="Explore businesses that are members of our Chamber of Commerce.">
+    <meta property="og:image" content="images/plazaLima.jpg">
+    <meta property="og:url" content="https://tuusuario.github.io/wdd231/chamber/directory.html">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/larger.css">
+
+    <!-- JavaScript -->
+    <script src="js/directory.js" defer></script>
+    <script src="js/date.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>City Chamber of Commerce</h1>
+        </div>
+
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h2>Business Directory</h2>
+
+        <div class="view-buttons">
+            <button id="grid">🔳 Grid View</button>
+            <button id="list">📋 List View</button>
+        </div>
+
+        <section id="members" class="grid">
+
+            <!-- Las tarjetas se crean desde JavaScript -->
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="contact-info">
+            <h3>City Chamber of Commerce</h3>
+            <p>123 Main Street</p>
+            <p>City, State 00000</p>
+            <p>Email: info@citychamber.org</p>
+            <p>Phone: (555) 123-4567</p>
+        </div>
+
+        <div class="social">
+            <a href="#">Facebook</a> |
+            <a href="#">Instagram</a> |
+            <a href="#">LinkedIn</a>
+        </div>
+
+        <div class="developer-info">
+            <p>
+                &copy;
+                <span id="year"></span>
+                Tu Nombre | WDD 231
+            </p>
+
+            <p id="lastModified"></p>
+        </div>
+
+    </footer>
+
+</body>
+</html>

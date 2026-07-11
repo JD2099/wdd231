@@ -1,0 +1,90 @@
+/* ==========================================
+   LARGER.CSS
+   Styles for screens 768px and larger
+========================================== */
+
+@media screen and (min-width: 768px) {
+
+    /* ---------- Header ---------- */
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+    }
+
+    .logo h1 {
+        font-size: 2rem;
+    }
+
+    nav {
+        margin-top: 0;
+    }
+
+    .navigation {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .navigation a {
+        padding: .75rem 1rem;
+    }
+
+    /* ---------- Main ---------- */
+
+    main h2 {
+        font-size: 2rem;
+    }
+
+    /* ---------- Grid View ---------- */
+
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .grid section {
+        transition: transform .3s ease, box-shadow .3s ease;
+    }
+
+    .grid section:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0,0,0,.2);
+    }
+
+    .grid img {
+        width: 150px;
+        height: 150px;
+    }
+
+    /* ---------- List View ---------- */
+
+    .list section {
+        display: grid;
+        grid-template-columns: 2fr 2fr 1.5fr 2fr;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .list h3,
+    .list p,
+    .list a {
+        margin: 0;
+    }
+
+    /* ---------- Footer ---------- */
+
+    footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: start;
+        text-align: left;
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    .developer-info {
+        text-align: right;
+    }
+
+}

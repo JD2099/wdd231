@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Tech Solutions",
+        "address": "123 Main Street, Springfield",
+        "phone": "(555) 123-4567",
+        "website": "https://www.techsolutions.com",
+        "image": "tech.jpg",
+        "membership": 3,
+        "description": "Software development and IT consulting services."
+    },
+    {
+        "name": "Green Market",
+        "address": "45 Oak Avenue, Springfield",
+        "phone": "(555) 234-5678",
+        "website": "https://www.greenmarket.com",
+        "image": "green-market.jpg",
+        "membership": 2,
+        "description": "Fresh organic fruits, vegetables, and groceries."
+    },
+    {
+        "name": "Blue Sky Hotel",
+        "address": "789 Sunset Boulevard, Springfield",
+        "phone": "(555) 345-6789",
+        "website": "https://www.blueskyhotel.com",
+        "image": "blue-sky-hotel.jpg",
+        "membership": 3,
+        "description": "Comfortable hotel with modern amenities and conference rooms."
+    },
+    {
+        "name": "City Fitness",
+        "address": "210 Fitness Road, Springfield",
+        "phone": "(555) 456-7890",
+        "website": "https://www.cityfitness.com",
+        "image": "city-fitness.jpg",
+        "membership": 1,
+        "description": "Fitness center with gym, personal training, and group classes."
+    },
+    {
+        "name": "Sunrise Bakery",
+        "address": "88 Baker Street, Springfield",
+        "phone": "(555) 567-8901",
+        "website": "https://www.sunrisebakery.com",
+        "image": "sunrise-bakery.jpg",
+        "membership": 2,
+        "description": "Fresh bread, pastries, cakes, and desserts made daily."
+    },
+    {
+        "name": "Elite Auto Repair",
+        "address": "654 Highway Drive, Springfield",
+        "phone": "(555) 678-9012",
+        "website": "https://www.eliteautorepair.com",
+        "image": "elite-auto-repair.jpg",
+        "membership": 1,
+        "description": "Professional automotive maintenance and repair services."
+    },
+    {
+        "name": "Creative Studio",
+        "address": "321 Design Avenue, Springfield",
+        "phone": "(555) 789-0123",
+        "website": "https://www.creativestudio.com",
+        "image": "creative-studio.jpg",
+        "membership": 3,
+        "description": "Graphic design, branding, photography, and digital marketing."
+    }
+]
