@@ -10,10 +10,10 @@
     <meta name="author" content="Juan Diego Castillo">
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:title" content="Chamber of Commerce Directory">
-    <meta property="og:description" content="Explore businesses that are members of our Chamber of Commerce.">
+    <meta property="og:title" content="City Chamber of Commerce Home">
+    <meta property="og:description" content="Connect with local businesses and community events.">
+    <meta property="og:url" content="https://Juan2099.github.io/wdd231/chamber/">
     <meta property="og:image" content="images/plazaLima.jpg">
-    <meta property="og:url" content="https://Juan2099.github.io/wdd231/chamber/directory.html">
     <meta property="og:type" content="website">
 
     <!-- Favicon -->
@@ -27,6 +27,8 @@
     <!-- JavaScript -->
     <script src="js/directory.js" defer></script>
     <script src="js/date.js" defer></script>
+    <script src="js/weather.js" defer></script>
+    <script src="js/spotlight.js" defer></script>
 </head>
 
 <body>
@@ -48,18 +50,54 @@
 
     <main>
 
-        <h2>Business Directory</h2>
+        <!-- Hero -->
+        <section class="hero">
+            <img src="images/hero.jpg" alt="Chamber business community">
+            
+            <div class="hero-text">
+                <h1>Welcome to My Chamber</h1>
+                <p>Connecting businesses and growing our community.</p>
 
-        <div class="view-buttons">
-            <button id="grid">🔳 Grid View</button>
-            <button id="list">📋 List View</button>
-        </div>
+                <a href="join.html" class="cta">
+                    Join the Chamber
+                </a>
+            </div>
+        </section>
 
-        <section id="members" class="grid">
 
-            <!-- Las tarjetas se crean desde JavaScript -->
+        <!-- Events -->
+        <section class="events">
+            <h2>Current Events</h2>
+
+            <p>
+                Join us for networking events and business opportunities.
+            </p>
+        </section>
+
+
+        <!-- Weather -->
+        <section class="weather">
+            <h2>Weather</h2>
+
+            <p id="current-temp"></p>
+            <p id="weather-desc"></p>
+
+            <h3>3 Day Forecast</h3>
+
+            <div id="forecast"></div>
 
         </section>
+
+
+        <!-- Spotlights -->
+        <section class="spotlights">
+
+            <h2>Business Spotlights</h2>
+
+            <div id="spotlight-container"></div>
+
+        </section>
+
 
     </main>
 
