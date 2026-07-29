@@ -1,0 +1,227 @@
+:root{
+
+    --primary:#1E3A5F;
+    --secondary:#2E8B57;
+    --background:#F5F5F5;
+    --text:#333333;
+
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:'Roboto',sans-serif;
+    background:var(--background);
+    color:var(--text);
+    line-height:1.6;
+
+}
+
+header{
+
+    background:var(--primary);
+    color:white;
+    text-align:center;
+    padding:2rem;
+
+}
+
+main{
+
+    width:90%;
+    max-width:1000px;
+    margin:40px auto;
+
+}
+
+section{
+
+    background:white;
+    margin-bottom:2rem;
+    padding:2rem;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+
+}
+
+h1,
+h2,
+h3{
+
+    font-family:'Poppins',sans-serif;
+
+}
+
+h2{
+
+    color:var(--primary);
+    margin-bottom:1rem;
+
+}
+
+h3{
+
+    color:var(--secondary);
+    margin-bottom:.5rem;
+
+}
+
+p{
+
+    margin-bottom:1rem;
+
+}
+
+ul{
+
+    margin-left:1.5rem;
+
+}
+
+li{
+
+    margin-bottom:.5rem;
+
+}
+
+table{
+
+    width:100%;
+    border-collapse:collapse;
+    margin-top:1rem;
+
+}
+
+th{
+
+    background:var(--primary);
+    color:white;
+    padding:12px;
+
+}
+
+td{
+
+    border:1px solid #ccc;
+    padding:12px;
+
+}
+
+img{
+
+    width:100%;
+    max-width:700px;
+    display:block;
+    margin:20px auto;
+    border:2px solid #ccc;
+
+}
+
+footer{
+
+    text-align:center;
+    padding:1.5rem;
+    background:var(--primary);
+    color:white;
+
+}
+
+/* ========================= */
+/* Wireframes */
+/* ========================= */
+
+.wireframe{
+
+    border:2px solid #000;
+    background:#fff;
+    padding:20px;
+    margin:20px 0;
+
+}
+
+.wireframe div{
+
+    border:2px solid #000;
+    background:#ffffff;
+    color:#000;
+    text-align:center;
+    padding:18px;
+    margin:10px 0;
+    font-weight:bold;
+
+}
+
+.mobile{
+
+    max-width:350px;
+    margin:auto;
+
+}
+
+.desktop{
+
+    max-width:900px;
+    margin:auto;
+
+}
+
+.wf-row{
+
+    display:flex;
+    gap:15px;
+    border:none !important;
+    padding:0 !important;
+    margin:10px 0;
+
+}
+
+.wf-box{
+
+    flex:1;
+
+}
+
+.wf-header{
+
+    height:70px;
+
+}
+
+.wf-nav{
+
+    height:55px;
+
+}
+
+.wf-hero{
+
+    height:160px;
+
+}
+
+.wf-section{
+
+    height:90px;
+
+}
+
+.wf-footer{
+
+    height:70px;
+
+}
+
+@media (max-width:768px){
+
+    .wf-row{
+
+        flex-direction:column;
+
+    }
+
+}
